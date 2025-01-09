@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+
+.idea/
+target/
+.mvn/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+/bin/
+/out/
