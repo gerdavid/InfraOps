@@ -32,12 +32,12 @@ This document provides steps to build and run the Spring Boot application locall
    ```bash
    docker run -p 8080:8080 spring-boot-books-app:latest
    ```
-
+ ![Application Startup](screenshots/1.png)
 4. **Access the Application**:
     - Open your browser and navigate to: [http://localhost:8080/books](http://localhost:8080/books)
 
 ---
-
+![Application Startup](screenshots/2.png)
 ## Deploying on Minikube
 
 ### Required Minikube Setup Commands
@@ -80,6 +80,7 @@ This document provides steps to build and run the Spring Boot application locall
    kubectl get pods
    kubectl get services
    ```
+   ![Pods and service status](screenshots/3.png)
 
 4. **Access the Application**:
     - Get the URL using Minikube:
@@ -89,7 +90,8 @@ This document provides steps to build and run the Spring Boot application locall
     - This opens the application in your browser or provides a local URL.
 
 ---
-
+![Application Startup](screenshots/4.png)
+![Application Startup](screenshots/5.png)
 ## CI/CD Pipeline in GitHub Actions
 
 ### Workflow Overview
@@ -113,7 +115,8 @@ This document provides steps to build and run the Spring Boot application locall
 Refer to the provided GitHub Actions workflow file in the repository.
 
 ---
-
+![Application Startup](screenshots/6.png)
+![Application Startup](screenshots/7.png)
 ## Assumptions, Decisions, and Challenges
 
 ### Assumptions
