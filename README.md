@@ -32,7 +32,7 @@ This document provides steps to build and run the Spring Boot application locall
    ```bash
    docker run -p 8080:8080 spring-boot-books-app:latest
    ```
- ![Application Startup](screenshots/1.png)
+ ![Application Startup](https://github.com/gerdavid/InfraOps/blob/master/screenshots/1.PNG)
 4. **Access the Application**:
     - Open your browser and navigate to: [http://localhost:8080/books](http://localhost:8080/books)
 
