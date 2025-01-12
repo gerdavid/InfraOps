@@ -37,7 +37,7 @@ This document provides steps to build and run the Spring Boot application locall
     - Open your browser and navigate to: [http://localhost:8080/books](http://localhost:8080/books)
 
 ---
-![Application Startup](screenshots/2.png)
+![Application Startup](https://github.com/gerdavid/InfraOps/blob/master/screenshots/2.PNG)
 ## Deploying on Minikube
 
 ### Required Minikube Setup Commands
@@ -80,7 +80,7 @@ This document provides steps to build and run the Spring Boot application locall
    kubectl get pods
    kubectl get services
    ```
-   ![Pods and service status](screenshots/3.png)
+   ![Pods and service status](https://github.com/gerdavid/InfraOps/blob/master/screenshots/3.PNG)
 
 4. **Access the Application**:
     - Get the URL using Minikube:
@@ -90,8 +90,8 @@ This document provides steps to build and run the Spring Boot application locall
     - This opens the application in your browser or provides a local URL.
 
 ---
-![Application Startup](screenshots/4.png)
-![Application Startup](screenshots/5.png)
+![Application Startup](https://github.com/gerdavid/InfraOps/blob/master/screenshots/4.PNG)
+![Application Startup](https://github.com/gerdavid/InfraOps/blob/master/screenshots/5.PNG)
 ## CI/CD Pipeline in GitHub Actions
 
 ### Workflow Overview
@@ -115,8 +115,8 @@ This document provides steps to build and run the Spring Boot application locall
 Refer to the provided GitHub Actions workflow file in the repository.
 
 ---
-![Application Startup](screenshots/6.png)
-![Application Startup](screenshots/7.png)
+![Application Startup](https://github.com/gerdavid/InfraOps/blob/master/screenshots/6.PNG)
+![Application Startup](https://github.com/gerdavid/InfraOps/blob/master/screenshots/7.PNG)
 ## Assumptions, Decisions, and Challenges
 
 ### Assumptions
