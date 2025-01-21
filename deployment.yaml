@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: .infraops-test
+  name: infraops-test
   labels:
     app: infraops-test
 spec:
