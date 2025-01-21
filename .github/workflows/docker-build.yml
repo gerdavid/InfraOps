@@ -24,8 +24,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/infraopsTest:latest .
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/infraops-test:latest .
 
       - name: Push Docker image
         run: |
-          docker push ${{ secrets.DOCKER_USERNAME }}/infraopsTest:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/infraops-test:latest
