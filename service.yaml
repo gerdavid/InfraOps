@@ -4,7 +4,7 @@ metadata:
   name: spring-boot-service
 spec:
   selector:
-    app: spring-boot-app
+    app: infraops-test
   ports:
     - protocol: TCP
       port: 8080
